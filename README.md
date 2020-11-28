@@ -1,5 +1,7 @@
 # fcitx5-themes
-fcitx5的自定义皮肤，仅在fcitx5-rime测试过
+fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
+
+个人觉得挺好看的，毕竟是我根据自。
 
 ## spring/春日绿
 示例图：
