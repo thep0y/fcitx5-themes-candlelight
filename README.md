@@ -6,7 +6,7 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 ## spring/春日绿
 示例图：
 ![fcitx5在Manjaro上的截图](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606577814.png)
-![fcitx5春日绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606577835.png)
+![fcitx5春日绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606626556.png)
 
 ## 使用步骤
 当前暂时只有一款绿色皮肤，之后可能会再增加几款。
