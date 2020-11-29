@@ -43,7 +43,7 @@ Theme=spring
 vim ~/.config/fcitx5/conf/rime.conf
 ```
 添加：
-```conf
+```apacheconf
 PreeditInApplication=True
 ```
 
