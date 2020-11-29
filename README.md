@@ -24,7 +24,7 @@ cp spring ~/.local/share/fcitx5/themes -r
 vim ~/.config/fcitx5/conf/classicui.conf
 ```
 将下面的参数复制进去（记得修改字体）：
-```conf
+```apacheconf
 # 垂直候选列表
 Vertical Candidate List=False
 
