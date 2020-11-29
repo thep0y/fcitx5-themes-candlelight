@@ -11,16 +11,16 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 ## 使用步骤
 当前暂时只有一款绿色皮肤，之后可能会再增加几款。
 将整个项目clone到本地：
-```sh
+```console
 git clone https://github.com/thep0y/fcitx5-themes.git
 ```
 将皮肤复制到该放的位置：
-```shell
+```console
 cd fcitx5-themes
 cp spring ~/.local/share/fcitx5/themes -r
 ```
 修改皮肤配置文件(若没有配置文件则自动创建)：
-```shell
+```console
 vim ~/.config/fcitx5/conf/classicui.conf
 ```
 将下面的参数复制进去（记得修改字体）：
@@ -39,7 +39,7 @@ Theme=spring
 ```
 若想输入法变成单行模式，还得再修改一个配置文件。
 以fcitx5-rime为例：
-```shell
+```console
 vim ~/.config/fcitx5/conf/rime.conf
 ```
 添加：
