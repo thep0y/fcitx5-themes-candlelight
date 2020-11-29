@@ -7,3 +7,47 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 示例图：
 ![fcitx5在Manjaro上的截图](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606577814.png)
 ![fcitx5春日绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606577835.png)
+
+## 使用步骤
+当前暂时只有一款绿色皮肤，之后可能会再增加几款。
+将整个项目clone到本地：
+```shell
+git clone https://github.com/thep0y/fcitx5-themes.git
+```
+将皮肤复制到该放的位置：
+```shell
+cd fcitx5-themes
+cp spring ~/.local/share/fcitx5/themes -r
+```
+修改皮肤配置文件(若没有配置文件则自动创建)：
+```shell
+vim ~/.config/fcitx5/conf/classicui.conf
+```
+将下面的参数复制进去（记得修改字体）：
+```conf
+# 垂直候选列表
+Vertical Candidate List=False
+
+# 按屏幕 DPI 使用
+PerScreenDPI=True
+
+# Font (设置成你喜欢的字体)
+Font="Smartisan Compact CNS 13"
+
+# 主题
+Theme=spring
+```
+若想输入法变成单行模式，还得再修改一个配置文件。
+以fcitx5-rime为例：
+```shell
+vim ~/.config/fcitx5/conf/rime.conf
+```
+添加：
+```conf
+PreeditInApplication=True
+```
+
+
+
+
+
