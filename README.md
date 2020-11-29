@@ -11,7 +11,7 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 ## 使用步骤
 当前暂时只有一款绿色皮肤，之后可能会再增加几款。
 将整个项目clone到本地：
-```console
+```sh
 git clone https://github.com/thep0y/fcitx5-themes.git
 ```
 将皮肤复制到该放的位置：
