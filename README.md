@@ -47,7 +47,7 @@ vim ~/.config/fcitx5/conf/rime.conf
 PreeditInApplication=True
 ```
 
-
+保存后，重启输入法皮肤即可生效。
 
 
 
