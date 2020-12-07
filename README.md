@@ -32,6 +32,11 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 
 ![fcitx5荧光绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1607336476.png)
 
+### transparent-green/荧光绿透明版
+示列图：
+
+![fcitx5荧光绿透明版皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1607338718.png)
+
 ## 使用步骤
 
 将整个项目clone到本地：
