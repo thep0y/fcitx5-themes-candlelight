@@ -3,27 +3,34 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 
 个人觉得挺好看的，毕竟是我根据自己的喜好制作。
 
-## spring/春日绿
+## 背景高亮系列
+
+### spring/春日绿
 示例图：
 
 ![fcitx5春日绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606626556.png)
 
-## summer/夏日红
+### summer/夏日红
 示例图：
 
 ![fcitx5夏日红皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805712.png)
 
-## autumn/秋日橙
+### autumn/秋日橙
 示例图：
 
 ![fcitx5秋日橙皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805738.png)
 
-## winter/冬日蓝
+### winter/冬日蓝
 示例图：
 
 ![fcitx5冬日蓝皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805676.png)
 
+## 候选字高亮系列
 
+### green/荧光绿
+示列图：
+
+![fcitx5荧光绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1607336476.png)
 
 ## 使用步骤
 
