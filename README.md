@@ -64,7 +64,7 @@ PerScreenDPI=True
 # Font (设置成你喜欢的字体)
 Font="Smartisan Compact CNS 13"
 
-# 主题
+# 主题(这里要改成你想要使用的主题名，主题名就在下面)
 Theme=spring
 ```
 其中的主题名与各主题的文件夹名相同，即：
@@ -73,6 +73,8 @@ Theme=spring
 - summer
 - autumn
 - winter
+- green
+- transparent-green
 
 
 
