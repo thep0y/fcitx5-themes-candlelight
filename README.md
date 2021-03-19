@@ -5,43 +5,43 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 
 **如果有更好的配色，欢迎提出来。**
 
+## 一、简介
 
+### 1、背景高亮系列
 
-## 背景高亮系列
-
-### spring/春日绿
+#### spring/春日绿
 示例图：
 
 ![fcitx5春日绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606626556.png)
 
-### summer/夏日红
+#### summer/夏日红
 示例图：
 
 ![fcitx5夏日红皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805712.png)
 
-### autumn/秋日橙
+#### autumn/秋日橙
 示例图：
 
 ![fcitx5秋日橙皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805738.png)
 
-### winter/冬日蓝
+#### winter/冬日蓝
 示例图：
 
 ![fcitx5冬日蓝皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805676.png)
 
-## 候选字高亮系列
+### 2、候选字高亮系列
 
-### green/荧光绿
+#### green/荧光绿
 示列图：
 
 ![fcitx5荧光绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1607336476.png)
 
-### transparent-green/荧光绿透明版
+#### transparent-green/荧光绿透明版
 示列图：
 
 ![fcitx5荧光绿透明版皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1607338718.png)
 
-## 使用步骤
+## 二、使用步骤
 
 将整个项目clone到本地：
 
@@ -95,7 +95,7 @@ PreeditInApplication=True
 
 保存后，重启输入法皮肤即可生效。
 
-单双行（预编辑）模式的切换快捷键`ctrl + alt + P`，也就是说，不改上面的配置，也可以直接用这上快捷键进行切换。
+单双行（预编辑）模式的切换快捷键<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>P</kbd>，也就是说，不改上面的配置，也可以直接用这上快捷键进行切换。
 
 
 
