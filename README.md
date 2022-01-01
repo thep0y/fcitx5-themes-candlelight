@@ -1,4 +1,6 @@
 # fcitx5-themes
+![output](https://cdn.jsdelivr.net/gh/thep0y/image-bed/md/1641050660793073.png)
+
 fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 
 个人觉得挺好看的，毕竟是我根据自己的喜好制作。
