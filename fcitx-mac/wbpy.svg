@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="22"
+   height="22"
+   viewBox="0 0 22 22"
+   sodipodi:docname="pinyin.svg"
+   inkscape:export-filename="/home/haruki/Projects/My Projects/fcitx-skin-material/material/anthy.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.1 r">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="8"
+     inkscape:cx="22.786253"
+     inkscape:cy="5.8391678"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:snap-global="true"
+     inkscape:snap-text-baseline="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4487"
+       empspacing="11" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4499"
+       empspacing="2"
+       dotted="true" />
+  </sodipodi:namedview>
+  <image
+     width="22"
+     height="22"
+     preserveAspectRatio="none"
+     style="image-rendering:optimizeSpeed"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACXSURB
+VDiN7ZJBCoQgFIa/qZvMRaZFDtSBoiNEB2pTi07SRQaiRTpMoqXoEEHfRn08fz/kwc0VKEzFJELw
+Cyj/EQyQ6eEPx4utY98IdBDPWPFRG1fjPRpWwRFpC3Zj4Rm+CbXxlhauGCV0YwHkHqEAvan4+8fC
+9rqB6qgh9lR80adCWc9AHRKcaudJrk9gCAm24TtuNyewADOQD37uUiIyAAAAAElFTkSuQmCC
+"
+     id="image10"
+     x="0"
+     y="22" />
+  <g
+     aria-label="Aち"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.26640892px;line-height:1.25;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.54117647;stroke:none;stroke-width:0.4066602"
+     id="text4491"
+     transform="translate(32.435109,-24.275054)">
+    <path
+       d="M 4.8911278,12.103811 5.3791201,10.493436 C 5.7695139,9.1921237 6.1436413,7.8745446 6.4852359,6.5081662 h 0.065066 c 0.3741274,1.350112 0.7319884,2.6839575 1.1386486,3.9852698 L 8.160676,12.103811 Z M 9.6246528,17 H 11.625421 L 7.6564173,5.027923 H 5.4767185 L 1.5077147,17 H 3.427151 l 1.0247837,-3.415946 h 4.1642007 z"
+       style="letter-spacing:-3.4000001px;fill:#000000;fill-opacity:0.54117647;stroke-width:0.4066602"
+       id="path4501"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 19.971636,6.2407853 C 18.283979,6.6095171 15.82641,6.822247 14.223845,6.907339 l 0.08509,-0.4254598 c 0.09927,-0.4680058 0.170184,-0.9360115 0.326186,-1.4323813 L 12.649644,4.964406 c 0.01418,0.4680057 0,0.8083736 -0.07091,1.4181992 -0.01418,0.1701839 -0.05673,0.3545498 -0.08509,0.5672797 C 11.642722,6.9357029 10.836738,6.822247 10,6.6804271 v 1.7443851 c 0.7091,0.07091 1.27399,0.1276379 2.167456,0.1418199 -0.368732,1.5458369 -0.936012,3.4178599 -1.602565,4.7084219 l 1.659293,0.595643 c 0.14182,-0.241094 0.241094,-0.425459 0.397096,-0.609825 0.836737,-1.077832 2.269118,-1.737419 3.885866,-1.737419 1.361471,0 1.64581,0.787225 1.64581,1.623963 0,2.070571 -2.324607,2.439302 -5.402099,1.942933 l 0.49637,1.815295 c 4.538237,0.482187 6.791934,-0.652372 6.791934,-3.814956 0,-1.786931 -1.050167,-3.084708 -3.319285,-3.084708 -1.290562,0 -2.354211,0.333401 -3.488771,0.957409 0.226912,-0.680736 0.453824,-1.5742014 0.63819,-2.4251209 C 15.7555,8.4389941 18.539255,8.1695363 20,7.9426244 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.18199253px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP Bold';letter-spacing:0px;fill:#000000;fill-opacity:0.54117647;stroke-width:0.4066602"
+       id="path4503"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccssccsscccc" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.33333333px;line-height:1.25;font-family:'Noto Sans CJK SC';-inkscape-font-specification:'Noto Sans CJK SC Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.54117647;stroke:none;stroke-width:0.43572986"
+     x="11"
+     y="17.579521"
+     id="text4546"><tspan
+       sodipodi:role="line"
+       id="tspan4544"
+       x="11"
+       y="17.579521"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Noto Sans CJK SC';-inkscape-font-specification:'Noto Sans CJK SC Medium';fill:#000000;fill-opacity:0.54117647;stroke-width:0.43572986">五</tspan></text>
+</svg>

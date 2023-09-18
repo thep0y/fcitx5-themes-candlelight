@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4250"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="38"
+   height="38"
+   viewBox="0 0 38 38"
+   sodipodi:docname="menu.svg"
+   inkscape:export-filename="/home/haruki/Projects/fcitx-skin-material/material/menu.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata4256">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4254">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4330"
+       x="-0.0354375"
+       width="1.070875"
+       y="-0.036580645"
+       height="1.0731613">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.4725"
+         id="feGaussianBlur4332" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4428"
+       x="-0.0945"
+       width="1.189"
+       y="-0.097548387"
+       height="1.1950968">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.26"
+         id="feGaussianBlur4430" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="735"
+     id="namedview4252"
+     showgrid="false"
+     showborder="false"
+     inkscape:zoom="1"
+     inkscape:cx="46.762526"
+     inkscape:cy="21.981081"
+     inkscape:window-x="0"
+     inkscape:window-y="7"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4250">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4260" />
+  </sodipodi:namedview>
+  <image
+     width="38"
+     height="38"
+     preserveAspectRatio="none"
+     style="image-rendering:optimizeSpeed"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE3SURB
+VFiF7dhBasMwEEDRL8VNFqW9QLc9T3ujXM0n6S6FpkuVEiQnM11YcqZQClrYzkIfhAl28GMWgYzj
+mjMHc507NVc1nyfEJoTwKiLvunAicgghvACbMpAyIQ90IvLmnHtaaFK/UtWD9/4ZOAMyoYCdqoY1
+UCXn3CMQgbPnOrHtmqjcltHiLKxblTTWYWBwxa1dGRQWttTPw39NjluY0p81WG0NVluD1dZgtTVY
+bQ1WW4PV1mC1NVhtDVZbg9VWYAroMAzHtSAppQ/MGsrCpO/7fYzxc2lUjPHY9/0ekAJzjDupO+Ae
+eMhnx7hHmPvfuTKunSLwlc83MHT5pgAJOOUvJMwSbWbYJcNO+b0CaGdupvzwOT80LThmhkl+Z8rn
+Aqjdt3rGKXmDWgJWcJJRYmEFdzPL4R/Vb9iAP4qwuwAAAABJRU5ErkJggg==
+"
+     id="image4258"
+     x="57"
+     y="2" />
+  <rect
+     ry="2"
+     y="1"
+     x="3"
+     height="32"
+     width="32"
+     id="rect4264"
+     style="opacity:0.25;fill:#000000;fill-opacity:1;filter:url(#filter4330)" />
+  <rect
+     ry="2"
+     y="3"
+     x="3"
+     height="31.999996"
+     width="32"
+     id="rect4334"
+     style="opacity:0.33000004;fill:#000000;fill-opacity:1;filter:url(#filter4428)" />
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1"
+     id="rect4262"
+     width="32"
+     height="32"
+     x="3"
+     y="1"
+     ry="2.0645161" />
+</svg>
