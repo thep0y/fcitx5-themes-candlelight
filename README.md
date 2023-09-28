@@ -123,7 +123,3 @@ PreeditInApplication=True
 
 单双行（预编辑）模式的切换快捷键<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>P</kbd>，也就是说，不改上面的配置，也可以直接用这上快捷键进行切换。
 
-
-
-
-
