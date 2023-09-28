@@ -53,7 +53,7 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 
 macOS Sonoma Light 原皮肤：
 
-![macOS Sonoma Light](images/macOS Sonoma Light.png)
+![macOS Sonoma Light](images/macOS%20Sonoma%20Light.png)
 
 macOS Light 的皮肤与实际皮肤有一些细微不同，仍需微调以达到最佳效果。
 
