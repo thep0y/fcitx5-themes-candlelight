@@ -57,6 +57,12 @@ macOS Sonoma Light 原皮肤：
 
 macOS Light 的皮肤与实际皮肤有一些细微不同，仍需微调以达到最佳效果。
 
+#### macOS Dark
+
+macOS Sonoma Dark 原皮肤：
+
+![macOS Sonoma Light](images/macOS%20Sonoma%20Dark.png)
+
 ## 二、使用步骤
 
 将整个项目clone到本地：
