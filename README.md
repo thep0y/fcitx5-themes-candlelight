@@ -71,20 +71,20 @@ macOS Sonoma Dark 原皮肤：
 
 将整个项目clone到本地：
 
-```console
+```bash
 git clone https://github.com/thep0y/fcitx5-themes.git
 ```
 将想要使用的皮肤复制到该放的位置，以`spring`为例(下同)：
-```console
+```bash
 cd fcitx5-themes
 cp spring ~/.local/share/fcitx5/themes -r
 ```
 修改皮肤配置文件(若没有配置文件则自动创建)：
-```console
+```bash
 vim ~/.config/fcitx5/conf/classicui.conf
 ```
 将下面的参数复制进去（记得修改字体）：
-```apacheconf
+```toml
 # 垂直候选列表
 Vertical Candidate List=False
 
@@ -111,11 +111,11 @@ Theme=spring
 若想输入法变成单行模式，还得再修改一个配置文件。
 以fcitx5-rime为例：
 
-```console
+```bash
 vim ~/.config/fcitx5/conf/rime.conf
 ```
 添加：
-```apacheconf
+```toml
 PreeditInApplication=True
 ```
 
