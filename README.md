@@ -14,34 +14,44 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 #### spring/春日绿
 示例图：
 
-![fcitx5春日绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606626556.png)
+![fcitx5春日绿皮肤](images/1606626556.png)
 
 #### summer/夏日红
 示例图：
 
-![fcitx5夏日红皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805712.png)
+![fcitx5夏日红皮肤](images/1606805712.png)
 
 #### autumn/秋日橙
 示例图：
 
-![fcitx5秋日橙皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805738.png)
+![fcitx5秋日橙皮肤](images/1606805738.png)
 
 #### winter/冬日蓝
 示例图：
 
-![fcitx5冬日蓝皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1606805676.png)
+![fcitx5冬日蓝皮肤](images/1606805676.png)
 
 ### 2、候选字高亮系列
 
 #### green/荧光绿
 示列图：
 
-![fcitx5荧光绿皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1607336476.png)
+![fcitx5荧光绿皮肤](images/1607336476.png)
 
 #### transparent-green/荧光绿透明版
 示列图：
 
-![fcitx5荧光绿透明版皮肤](https://github.com/thep0y/fcitx5-themes/raw/main/images/1607338718.png)
+![fcitx5荧光绿透明版皮肤](images/1607338718.png)
+
+### 3、仿 macOS
+
+#### macOS Light
+
+示例图：
+
+![fcitx5春日绿皮肤](images/mac-light.png)
+
+
 
 ## 二、使用步骤
 
@@ -82,7 +92,7 @@ Theme=spring
 - green
 - transparent-green
 
-
+- macOS-light
 
 若想输入法变成单行模式，还得再修改一个配置文件。
 以fcitx5-rime为例：
