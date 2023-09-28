@@ -34,12 +34,12 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 ### 2、候选字高亮系列
 
 #### green/荧光绿
-示列图：
+示例图：
 
 ![fcitx5荧光绿皮肤](images/1607336476.png)
 
 #### transparent-green/荧光绿透明版
-示列图：
+示例图：
 
 ![fcitx5荧光绿透明版皮肤](images/1607338718.png)
 
@@ -49,15 +49,19 @@ fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
 
 示例图：
 
-![fcitx5春日绿皮肤](images/mac-light.png)
+![macOS亮色](images/mac-light.png)
 
 macOS Sonoma Light 原皮肤：
 
 ![macOS Sonoma Light](images/macOS%20Sonoma%20Light.png)
 
-macOS Light 的皮肤与实际皮肤有一些细微不同，仍需微调以达到最佳效果。
+macOS Light 的皮肤与实际皮肤有一些细微不同，有兴趣的朋友可以提交PR微调。
 
 #### macOS Dark
+
+示例图：
+
+![macOS暗色](images/mac-dark.png)
 
 macOS Sonoma Dark 原皮肤：
 
