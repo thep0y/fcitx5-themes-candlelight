@@ -84,7 +84,7 @@ cp spring ~/.local/share/fcitx5/themes -r
 vim ~/.config/fcitx5/conf/classicui.conf
 ```
 将下面的参数复制进去（记得修改字体）：
-```toml
+```apacheconf
 # 垂直候选列表
 Vertical Candidate List=False
 
@@ -115,7 +115,7 @@ Theme=spring
 vim ~/.config/fcitx5/conf/rime.conf
 ```
 添加：
-```toml
+```apacheconf
 PreeditInApplication=True
 ```
 
