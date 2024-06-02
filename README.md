@@ -138,3 +138,9 @@ PreeditInApplication=True
 保存后，重启输入法皮肤即可生效。
 
 单双行（预编辑）模式的切换快捷键<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>P</kbd>，也就是说，不改上面的配置，也可以直接用这上快捷键进行切换。
+
+---
+
+别老盯着 fcitx5 的皮肤，也去看看 macOS 和 Windows 的皮肤吧：
+
+https://github.com/thep0y/rime-98/tree/master/themes
