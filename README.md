@@ -1,12 +1,10 @@
+<img src="https://gw.alipayobjects.com/zos/antfincdn/R8sN%24GNdh6/language.svg" width="18"> [<span>:jp:</span>](./README.jp.md) | [<span>:kr:</span>](./README.kr.md) | [<span>:us:</span>](./README.en.md)
+
 # fcitx5-themes
 
 ![output](https://cdn.jsdelivr.net/gh/thep0y/image-bed/md/1641050660793073.png)
 
 fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
-
-个人觉得挺好看的，毕竟是我根据自己的喜好制作。
-
-**如果有更好的配色，欢迎提出来。**
 
 ## 一、简介
 
