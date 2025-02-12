@@ -84,7 +84,7 @@ git clone https://github.com/thep0y/fcitx5-themes.git
 
 ```bash
 cd fcitx5-themes
-cp spring ~/.local/share/fcitx5/themes -r
+cp spring/ ~/.local/share/fcitx5/themes -r
 ```
 
 修改皮肤配置文件(若没有配置文件则自动创建)：
