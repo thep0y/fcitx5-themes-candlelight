@@ -115,3 +115,9 @@ To switch between single and double line (pre-edit) modes, use the shortcut: `<C
 Explore more themes for macOS and Windows:
 
 - [Rime 98 Themes](https://github.com/thep0y/rime-98/tree/master/themes)
+
+## Note
+
+Some desktop environments or programs do not support rendering SVG, which causes display anomalies during input. Therefore, I have created an identical PNG version for all SVG skins. It is recommended to prioritize using the SVG version, and switch to the PNG version if anomalies occur.
+
+The SVG version skins have no suffix in their names, while the PNG version skins have `-png` as a suffix. For example, `macOS-light` is the SVG version, and `macOS-light-png` is the PNG version.

@@ -110,6 +110,12 @@ fcitx5 的自定义皮肤，仅在 fcitx5-rime 测试过。
 
 要在单行和双行（预编辑）模式之间切换，请使用快捷键：`<Ctrl>+<Alt>+P`。
 
+## 注意
+
+因为一些桌面环境或程序不支持渲染 svg，导致输入时显示异常，因此我为所有 svg 皮肤制作了一份相同的 png 版，建议优先使用 svg 版皮肤，若有异常再切换为 png 版皮肤。
+
+svg 版皮肤名称无后缀名，png 版皮肤名称以`-png`为后缀，比如`macOS-light`为 svg 版，`macOS-light-png`为 png 版。
+
 ---
 
 探索更多 macOS 和 Windows 主题：

@@ -115,3 +115,9 @@ fcitx5에 대한 커스텀 스킨으로, fcitx5-rime에서 테스트되었습니
 macOS와 Windows용 더 많은 테마를 탐색하세요:
 
 - [Rime 98 테마](https://github.com/thep0y/rime-98/tree/master/themes)
+
+## 주의
+
+일부 데스크톱 환경이나 프로그램에서는 SVG 렌더링을 지원하지 않아 입력 시 표시 이상이 발생할 수 있습니다. 따라서 모든 SVG 스킨에 대해 동일한 PNG 버전을 제작했습니다. SVG 버전 스킨을 우선적으로 사용하는 것을 권장하며, 이상이 발생할 경우 PNG 버전으로 전환하여 사용하시기 바랍니다.
+
+SVG 버전 스킨 이름에는 접미사가 없지만, PNG 버전 스킨 이름에는 `-png`가 접미사로 붙습니다. 예를 들어, `macOS-light`는 SVG 버전이고, `macOS-light-png`는 PNG 버전입니다.

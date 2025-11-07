@@ -115,3 +115,9 @@ fcitx5 用のカスタムスキン。fcitx5-rime でテスト済み。
 macOS と Windows 向けのさらなるテーマを探してみてください:
 
 - [Rime 98 Themes](https://github.com/thep0y/rime-98/tree/master/themes)
+
+## 注意
+
+一部のデスクトップ環境やプログラムでは SVG のレンダリングがサポートされていないため、入力時に表示異常が発生する場合があります。そのため、すべての SVG スキンに対して同じ PNG 版を作成しました。SVG 版のスキンを優先的に使用することを推奨しますが、異常が発生した場合は PNG 版に切り替えてください。
+
+SVG 版スキンの名前には接尾辞がありませんが、PNG 版スキンの名前には `-png` が接尾辞として付きます。例えば、`macOS-light` は SVG 版で、`macOS-light-png` は PNG 版です.
