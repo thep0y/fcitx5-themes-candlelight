@@ -1,40 +1,43 @@
 #!/bin/sh
 
-github_mirror="${GITHUB_MIRROR:-'https://ghproxy.com/'}"
+github_mirror="${GITHUB_MIRROR:-'https://ghproxy.net/'}"
 
 fcitx5_themes_dir='fcitx5-themes-main'
 
 target_dir=~/.local/share/fcitx5/themes
 
+# Create necessary directories
+mkdir -p ~/.local/share/fcitx5/themes
+mkdir -p ~/.config/fcitx5/conf
+
 download() {
-	curl "${github_mirror}"https://github.com/thep0y/fcitx5-themes/archive/refs/heads/main.zip -o /tmp/fcitx5-themes.zip
+  echo "Downloading themes from GitHub..."
+  curl "${github_mirror}"https://github.com/thep0y/fcitx5-themes-candlelight/archive/refs/heads/main.zip -o /tmp/fcitx5-themes-candlelight.zip
 
-	cd /tmp || exit
+  cd /tmp || exit
 
-	if [ -d $fcitx5_themes_dir ]; then
-		rm -rf $fcitx5_themes_dir
-	fi
+  if [ -d $fcitx5_themes_dir ]; then
+    rm -rf $fcitx5_themes_dir
+  fi
 
-	unzip fcitx5-themes.zip
-	cd fcitx5-themes-main || exit
-	rm README.md
-}
-
-update() {
-	cd /tmp/"$fcitx5_themes_dir" || exit
-	for f in *; do
-		rm -rf "$target_dir/$f"
-	done
+  unzip fcitx5-themes-candlelight.zip
+  cd fcitx5-themes-candlelight-main || exit
+  rm README.md
+  echo "Download completed!"
 }
 
 install() {
-	cp -r /tmp/"$fcitx5_themes_dir"/* ~/.local/share/fcitx5/themes
+  echo "Installing themes..."
+  cp -r /tmp/"$fcitx5_themes_dir"/* ~/.local/share/fcitx5/themes
+  echo "Installation completed!"
 }
 
-themes=(spring summer autumn winter green transparent-green)
+# Theme list (8 themes total)
+themes=(spring summer autumn winter green transparent-green "macOS-light" "macOS-dark")
+
 choice() {
-  echo "主题列表"
-  re='^[1-6]$'
+  echo "Theme List"
+  re='^[1-8]$'
   for i in "${!themes[@]}";
   do
     idx=$((i + 1))
@@ -43,10 +46,10 @@ choice() {
 
   echo -e "\n"
 
-  read -p "请输入你要使用的主题序号：" code 
+  read -p "Please enter the theme number you want to use: " code 
 
   if ! [[ $code =~ $re ]]; then
-    echo "序号不存在"
+    echo "Number does not exist"
     exit 1
   fi
 
@@ -54,22 +57,64 @@ choice() {
   theme="${themes[idx]}"
 }
 
+# Ask user whether to download/update themes or use local ones
+echo "Do you want to download/update themes from GitHub? (y/N)"
+read -r download_choice
 
-theme='spring'
+if [ "$download_choice" = "y" ] || [ "$download_choice" = "Y" ]; then
+  download
+  install
+  # Go back to the script directory
+  cd - || exit
+else
+  echo "Using local themes."
+fi
+
+# Select theme
+echo "Please select the theme to install:"
 choice
 
-font="思源黑体 13"
+# Copy the selected theme to the target directory (if using local themes)
+if [ "$download_choice" != "y" ] && [ "$download_choice" != "Y" ]; then
+  echo "Installing $theme theme..."
+  cp -r "$theme" ~/.local/share/fcitx5/themes/
+  echo "Theme installation completed!"
+fi
 
-config="# 垂直候选列表
+# Configure classicui.conf
+font="思源黑体 13"
+config="# Vertical candidate list
 Vertical Candidate List=False
 
-# 按屏幕 DPI 使用
+# Use per-screen DPI
 PerScreenDPI=True
 
-# Font (设置成你喜欢的字体)
+# Font (set to your preferred font)
 Font=\"$font\"
 
-# 主题(这里要改成你想要使用的主题名，主题名就在下面)
+# Theme (change to the theme name you want to use)
 Theme=$theme"
 
-echo "$config"
+echo "Configuring ~/.config/fcitx5/conf/classicui.conf ..."
+echo "$config" > ~/.config/fcitx5/conf/classicui.conf
+
+echo "classicui.conf configuration completed!"
+
+# Ask whether to configure single-line mode
+echo "\nDo you want to configure single-line mode? (y/N)"
+read -r single_line
+
+if [ "$single_line" = "y" ] || [ "$single_line" = "Y" ]; then
+  # Configure rime.conf to enable single-line mode
+  rime_config="PreeditInApplication=True"
+  echo "Configuring ~/.config/fcitx5/conf/rime.conf ..."
+  echo "$rime_config" > ~/.config/fcitx5/conf/rime.conf
+  echo "rime.conf configuration completed!"
+fi
+
+# Restart fcitx5
+echo "\nRestarting fcitx5 ..."
+fcitx5 -r
+
+echo "\nInstallation and configuration completed!"
+echo "Use shortcut <Ctrl>+<Alt>+P to switch between single-line and double-line modes."
