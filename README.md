@@ -1,144 +1,117 @@
 <img src="https://gw.alipayobjects.com/zos/antfincdn/R8sN%24GNdh6/language.svg" width="18"> [<span>:jp:</span>](./README.jp.md) | [<span>:kr:</span>](./README.kr.md) | [<span>:us:</span>](./README.en.md)
 
-# fcitx5-themes
+# Candlelight
 
-![output](https://cdn.jsdelivr.net/gh/thep0y/image-bed/md/1641050660793073.png)
+fcitx5 的自定义皮肤，仅在 fcitx5-rime 测试过。
 
-fcitx5的自定义皮肤，仅在fcitx5-rime测试过。
+## 概览
 
-## 一、简介
+### 背景高亮系列 / Background Highlight Series
 
-### 1、背景高亮系列
+- **Spring / 春日绿**
 
-#### spring/春日绿
+  ![fcitx5春日绿皮肤](images/1606626556.png)
 
-示例图：
+- **Summer / 夏日红**
 
-![fcitx5春日绿皮肤](images/1606626556.png)
+  ![fcitx5夏日红皮肤](images/1606805712.png)
 
-#### summer/夏日红
+- **Autumn / 秋日橙**
 
-示例图：
+  ![fcitx5秋日橙皮肤](images/1606805738.png)
 
-![fcitx5夏日红皮肤](images/1606805712.png)
+- **Winter / 冬日蓝**
 
-#### autumn/秋日橙
+  ![fcitx5冬日蓝皮肤](images/1606805676.png)
 
-示例图：
+### 候选字高亮系列 / Candidate Highlight Series
 
-![fcitx5秋日橙皮肤](images/1606805738.png)
+- **Green / 荧光绿**
 
-#### winter/冬日蓝
+  ![fcitx5荧光绿皮肤](images/1607336476.png)
 
-示例图：
+- **Transparent Green / 透明荧光绿**
 
-![fcitx5冬日蓝皮肤](images/1606805676.png)
+  ![fcitx5荧光绿透明版皮肤](images/1607338718.png)
 
-### 2、候选字高亮系列
+### 仿 macOS 系列 / macOS Inspired Themes
 
-#### green/荧光绿
+- **macOS Light**
 
-示例图：
+  ![macOS亮色](images/mac-light.png)
 
-![fcitx5荧光绿皮肤](images/1607336476.png)
+  - 原版 macOS Sonoma Light:
 
-#### transparent-green/荧光绿透明版
+    ![macOS Sonoma Light](images/macOS%20Sonoma%20Light.png)
 
-示例图：
+- **macOS Dark**
 
-![fcitx5荧光绿透明版皮肤](images/1607338718.png)
+  ![macOS暗色](images/mac-dark.png)
 
-### 3、仿 macOS
+  - 原版 macOS Sonoma Dark:
 
-#### macOS Light
+    ![macOS Sonoma Dark](images/macOS%20Sonoma%20Dark.png)
 
-示例图：
+## 使用方法 / Usage
 
-![macOS亮色](images/mac-light.png)
+1. 克隆项目：
 
-macOS Sonoma Light 原皮肤：
+   ```bash
+   git clone https://github.com/thep0y/fcitx5-themes-candlelight.git
+   ```
 
-![macOS Sonoma Light](images/macOS%20Sonoma%20Light.png)
+2. 将想要使用的主题复制到相应目录：
 
-macOS Light 的皮肤与实际皮肤有一些细微不同，有兴趣的朋友可以提交PR微调。
+   ```bash
+   mkdir -p ~/.local/share/fcitx5/themes
+   cd fcitx5-themes-candlelight
+   cp -r <theme-name> ~/.local/share/fcitx5/themes/
+   ```
 
-#### macOS Dark
+3. 配置主题设置：
 
-示例图：
+   ```bash
+   vim ~/.config/fcitx5/conf/classicui.conf
+   ```
 
-![macOS暗色](images/mac-dark.png)
+   添加以下内容（根据需要调整字体）：
 
-macOS Sonoma Dark 原皮肤：
+   ```apacheconf
+   Vertical Candidate List=False
+   PerScreenDPI=True
+   Font="Smartisan Compact CNS 13"
+   Theme=<theme-name>
+   ```
 
-![macOS Sonoma Light](images/macOS%20Sonoma%20Dark.png)
+4. 如需在 fcitx5-rime 中使用单行模式，请配置：
 
-## 二、使用步骤
+   ```bash
+   vim ~/.config/fcitx5/conf/rime.conf
+   ```
 
-将整个项目clone到本地：
+   添加：
 
-```bash
-git clone https://github.com/thep0y/fcitx5-themes.git
-```
+   ```apacheconf
+   PreeditInApplication=True
+   ```
 
-将想要使用的皮肤复制到该放的位置，以`spring`为例(下同)：
+5. 重启 fcitx5 以应用更改。
 
-```bash
-cd fcitx5-themes
-cp spring ~/.local/share/fcitx5/themes -r
-```
+可用的主题包括：
 
-修改皮肤配置文件(若没有配置文件则自动创建)：
+- **spring**
+- **summer**
+- **autumn**
+- **winter**
+- **green**
+- **transparent-green**
+- **macOS-light**
+- **macOS-dark**
 
-```bash
-vim ~/.config/fcitx5/conf/classicui.conf
-```
-
-将下面的参数复制进去（记得修改字体）：
-
-```apacheconf
-# 垂直候选列表
-Vertical Candidate List=False
-
-# 按屏幕 DPI 使用
-PerScreenDPI=True
-
-# Font (设置成你喜欢的字体)
-Font="Smartisan Compact CNS 13"
-
-# 主题(这里要改成你想要使用的主题名，主题名就在下面)
-Theme=spring
-```
-
-其中的主题名与各主题的文件夹名相同，即：
-
-- spring
-- summer
-- autumn
-- winter
-- green
-- transparent-green
-- macOS-light
-- macOS-dark
-
-若想输入法变成单行模式，还得再修改一个配置文件。
-以fcitx5-rime为例：
-
-```bash
-vim ~/.config/fcitx5/conf/rime.conf
-```
-
-添加：
-
-```apacheconf
-PreeditInApplication=True
-```
-
-保存后，重启输入法皮肤即可生效。
-
-单双行（预编辑）模式的切换快捷键<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>P</kbd>，也就是说，不改上面的配置，也可以直接用这上快捷键进行切换。
+要在单行和双行（预编辑）模式之间切换，请使用快捷键：`<Ctrl>+<Alt>+P`。
 
 ---
 
-别老盯着 fcitx5 的皮肤，也去看看 macOS 和 Windows 的皮肤吧：
+探索更多 macOS 和 Windows 主题：
 
-https://github.com/thep0y/rime-98/tree/master/themes
+- [Rime 98 Themes](https://github.com/thep0y/rime-98/tree/master/themes)
